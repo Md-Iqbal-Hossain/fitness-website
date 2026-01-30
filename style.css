@@ -46,6 +46,7 @@ nav>span {
     background-color: #E6533C;
     border-radius: 46px;
     padding: 5px 15px;
+    cursor: pointer;
 }
 
 /* banner design  */
@@ -75,6 +76,7 @@ nav>span {
     height: 54px;
     border-radius: 42px;
     color: white;
+    cursor: pointer;
 }
 
 .banner-right {
@@ -236,6 +238,7 @@ nav>span {
     height: 54px;
     border: none;
     border-radius: 42px;
+    cursor: pointer;
 }
 
 .run-img {
@@ -254,19 +257,21 @@ nav>span {
 
 
 /* training section  */
-.training-title{
+.training-title {
     max-width: 1200px;
     min-height: 100px;
     margin: 0 auto;
 }
-.training-title>h1{
+
+.training-title>h1 {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     font-size: 3rem;
     color: #FFFFFF;
 }
-.training-title>p{
+
+.training-title>p {
     /* text-align: center; */
     /* margin: 0 auto; */
     font-size: 0.8rem;
@@ -276,6 +281,7 @@ nav>span {
     margin: 10px auto;
     padding: 15px 0;
 }
+
 .grid-container {
     max-width: 1200px;
     min-height: 300px;
@@ -412,6 +418,81 @@ nav>span {
     position: absolute;
     top: 80%;
     left: 8%;
+}
+
+/* footer section here  */
+footer {
+    width: 100%;
+    background-color: #222222;
+    height: auto;
+}
+
+.f-container {
+    max-width: 1200px;
+    min-height: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding-top: 100px;
+}
+
+.f1 {
+    width: 40%;
+    height: 250px;
+}
+
+.f2 {
+    width: 25%;
+    height: 250px;
+}
+
+.f3 {
+    width: 25%;
+    height: 250px;
+}
+
+.f1>h2 {
+    font-size: 4.3rem;
+    font-weight: 800;
+    color: #E6533C;
+    font-style: italic;
+    padding-bottom: 20px;
+}
+
+.f1>p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.f2>h6,
+.f3>h6 {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    font-size: 2rem;
+    font-weight: 700;
+    padding-bottom: 20px;
+
+}
+
+.f2>ul,
+.f3>ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.f2>ul>li>a,
+.f3>ul>li>a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 120%;
 }
 
 

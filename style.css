@@ -16,7 +16,7 @@ body {
 nav {
     display: flex;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 20px auto;
     justify-content: space-between;
     align-items: center;
 }
@@ -495,6 +495,27 @@ footer {
     line-height: 120%;
 }
 
+.f-last {
+    max-width: 1200px;
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.f-last span {
+    display: block;
+    background-color: #ffffff65;
+    width: 100%;
+    height: 1px;
+    margin-bottom: 20px;
+}
+
+.f-last p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: center;
+}
 
 
 
@@ -608,5 +629,31 @@ footer {
     .grid-1,
     .grid-4 {
         display: none;
+    }
+
+    /* footer section responsive  */
+    .f-container {
+        flex-direction: column;
+        /* align-items: center; */
+        padding-top: 100px;
+    }
+
+    .f1 {
+        width: 90%;
+        height: 250px;
+    }
+
+    .f2 {
+        width: 90%;
+        height: 250px;
+    }
+
+    .f3 {
+        width: 90%;
+        height: 250px;
+    }
+    .f-last>span{
+        width: 90%;
+        margin: 20px auto;
     }
 }
